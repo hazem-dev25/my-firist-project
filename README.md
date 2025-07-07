@@ -37,14 +37,7 @@ This project is a clean, minimalist front-end web page built using only HTML and
 - **CSS3 (Flexbox)**
 - No JavaScript involved (pure static project)
 
----
-
-## 🚀 Live Demo
-
-> 🔗 **[View the Live Project](https://your-username.github.io/small-project/)**  
-*(Replace `your-username` with your GitHub username)*
-
----
+------
 
 ## 📂 Folder Structure
 
