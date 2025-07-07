@@ -1,0 +1,166 @@
+body {
+  box-sizing: border-box;
+  background-image: url(juli-kosolapova-71zGLR7OmMQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  width: 600px;
+  height: 60px;
+  padding: 10px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #e1d6d94d;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-shadow: 8px 8px 8px black;
+}
+
+.nav div {
+  width: calc(97% / 3);
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Home {
+  color: #000000;
+  order: 3;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 23px;
+}
+
+.Home:hover {
+  cursor: pointer;
+  background-color: #ffebcd14;
+}
+
+.Home:visited {
+  color: #cddc39;
+}
+
+.links {
+  order: 2;
+  color: #000000;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.links:hover {
+  cursor: pointer;
+  background-color: #ffebcd14;
+}
+
+.links:visited {
+  color: #cddc39;
+}
+
+.Contact {
+  color: #000000;
+  order: 1;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 23px;
+}
+
+.Contact:hover {
+  cursor: pointer;
+  background-color: #ffebcd14;
+}
+
+.Contact:visited {
+  color: #cddc39;
+}
+
+.test {
+  display: flex;
+  width: 315px;
+  height: 207px;
+  justify-content: center;
+  align-content: center;
+  background-color: #9e9e9e63;
+  position: relative;
+  margin: 25% auto;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.userlabel {
+  font-size: 25px;
+  color: #cddc39;
+  font-weight: bold;
+}
+
+.Username {
+  color: black;
+  width: 170px;
+  border: #0000008c solid 3px;
+  background: rgb(109 172 109 / 61%);
+  outline: none;
+  box-shadow: none;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.passlabel {
+  font-size: 25px;
+  color: #cddc39;
+  font-weight: bold;
+}
+
+.Password {
+  color: black;
+  width: 170px;
+  border: #0000008c solid 3px;
+  background: rgb(109 172 109 / 61%);
+  outline: none;
+  box-shadow: none;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Submit {
+  width: 165px;
+  height: 27px;
+  background-color: #05530038;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  font-weight: lighter;
+  font-size: 20px;
+  transition-duration: 1s;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px black;
+}
+
+.Submit:hover {
+  cursor: pointer;
+  width: 170px;
+  height: 40px;
+  transform: rotate(360deg);
+  border: black solid 3px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #cddc39;
+  font-weight: bold;
+}
